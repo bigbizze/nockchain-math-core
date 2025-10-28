@@ -1,0 +1,23 @@
+[package]
+name = "nockchain-math-core"
+version = "0.1.0"
+edition = "2021"
+description = "Lightweight field, polynomial, hashing, and elliptic-curve math primitives for Nockchain, usable from WASM."
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/nockchain/nockchain"
+
+[features]
+default = ["std"]
+std = []
+serde = ["dep:serde"]
+quickcheck = ["dep:quickcheck"]
+
+[dependencies]
+arrayref = "0.3.7"
+bs58 = "0.5.1"
+ibig = "0.3.6"
+num-traits = "0.2"
+once_cell = "1.21.3"
+thiserror = "2.0.11"
+serde = { version = "1.0.217", features = ["derive"], default-features = false, optional = true }
+quickcheck = { version = "1.0.3", optional = true }
