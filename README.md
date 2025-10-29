@@ -4,4 +4,4 @@
 
 \(See: https://github.com/bigbizze/nockchain-tx)
 
-Needs unit tests very badly.
+Needs unit tests.
