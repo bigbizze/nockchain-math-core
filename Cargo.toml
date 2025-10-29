@@ -5,6 +5,7 @@ edition = "2021"
 description = "Lightweight field, polynomial, hashing, and elliptic-curve math primitives for Nockchain, usable from WASM."
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/nockchain/nockchain"
+authors = ["Charles Anderson"]
 
 [features]
 default = ["std"]
